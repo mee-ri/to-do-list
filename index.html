@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div id="page">
+            <h5 id="date"></h5>
+            <h1 id="heading"></h1>
+            <h4 id="counter"></h4>
+            <form name="myForm" onsubmit="return dataCheck()">
+                <input id="task" type="text" name="task" placeholder="Enter a task here..."> 
+                <input id="submit" type="submit" value="Add">
+                <br>
+                <span id="feedback"></span> 
+            </form>
+            <br>
+            <div id="list"></div>
+            <script src="todo.js"></script>
+        </div>
+    </body>
+</html> 
