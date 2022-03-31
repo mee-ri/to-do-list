@@ -1,0 +1,77 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 75px 0px 0px 75px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: white;    
+}
+
+#page {
+    width: 30%;
+    background-color: white;
+    opacity: 0.8;
+    padding: 2px 20px 20px 20px;
+    border: 4px solid rgb(92, 131, 115);
+    border-radius: 8px;
+    display: table;
+}
+
+h5 {
+    text-align: right;
+    color: rgb(92, 131, 115);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(92, 131, 115);
+} 
+
+h4 {
+    background-color: rgb(231, 145, 159);
+    padding: 2px 4px;
+    color: white;
+    display: table;
+}
+
+#task {
+    width: 75%;
+    padding: 4px;
+    font-family: "Trebuchet MS", sans-serif;
+    
+}
+
+#submit {
+    background-color: rgb(92, 131, 115);
+    padding: 4px 15px;
+    border: solid rgb(92, 131, 115);
+    border-radius: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: white;
+}
+
+#feedback {
+    color: red;
+    font-size: small;
+} 
+
+p {
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid rgb(92, 131, 115);
+    border-radius: 5px;  
+    color: black;
+    display: table;    
+}
+
+button {
+    background-color: rgb(92, 131, 115);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: white;
+}  
